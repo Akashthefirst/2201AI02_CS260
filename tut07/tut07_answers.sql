@@ -3,8 +3,8 @@
 -- Comment in MYSQL 
 -- Akash Sinha
 -- 2201AI02
-
 use tut7;
+
 DELIMITER //
 CREATE PROCEDURE CalculateAverageSalary(IN department_id_param INT, OUT avg_salary DECIMAL)
 BEGIN
