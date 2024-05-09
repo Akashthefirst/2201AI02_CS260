@@ -10,17 +10,22 @@ git clone https://github.com/Akashthefirst/2201AI02_CS260.git
 cd 2201AI02_CS260/proj1
 
 
-2. Build and start the containers: docker-compose up -d
+2.Install dependencies : npm i
+
+This will install the required dependencies and build node_modules.
+
+
+3. Build and start the containers: docker-compose up -d
 
 This will build the Node.js application image and start the MySQL and Node.js containers in detached mode.
 
 
-3. Check the logs to ensure both containers are running: docker-compose logs -f
+4. Check the logs to ensure both containers are running: docker-compose logs -f
 
 You should see the MySQL container initializing and the Node.js application starting up.
 
 
-4. The Node.js application will be available at `http://localhost:8000`.
+5. The Node.js application will be available at `http://localhost:8000`.
 
 
 ## Configuration
